@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3156629188903527602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 397e5c54-627a-4581-9163-4362befce226
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You will need better equipment
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 237
+    y: 36
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItemEquipped
+        parameters:
+        - 3a32fd24-da82-4106-a42b-736051b20ec7
+        negate: 1
+    - or:
+      - predicate: HasItemEquipped
+        parameters:
+        - 06937866-e68a-430c-ab01-b0c3c8906e95
+        negate: 1
+--- !u!114 &-1215903198211286590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 804f031f-4015-4204-8bb8-16ab45c85ef6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: There is a guard training back there.
+  children:
+  - 397e5c54-627a-4581-9163-4362befce226
+  - 3ad69b0a-fbce-4ba6-98fb-3bd0877b7926
+  rect:
+    serializedVersion: 2
+    x: -6
+    y: 54
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: Waning Encounter 2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1215903198211286590}
+  - {fileID: -3156629188903527602}
+  - {fileID: 489341245682112834}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &489341245682112834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 3ad69b0a-fbce-4ba6-98fb-3bd0877b7926
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Go beat them up for me!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 235
+    y: 152
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItemEquipped
+        parameters:
+        - 3a32fd24-da82-4106-a42b-736051b20ec7
+        negate: 0
+    - or:
+      - predicate: HasItemEquipped
+        parameters:
+        - 06937866-e68a-430c-ab01-b0c3c8906e95
+        negate: 0

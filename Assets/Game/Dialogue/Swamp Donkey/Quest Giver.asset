@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8671682678427220035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: afab9740-8729-40d8-8672-7c84148b254e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What's the matter?
+  children:
+  - 57331595-c013-4edd-9ba0-71706365abcd
+  rect:
+    serializedVersion: 2
+    x: 509
+    y: 7
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6977335559712983403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: f5edddbe-72c2-455c-a584-9b4b4201145a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: What are you waiting for!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 507
+    y: 293
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5988230843802586893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 1e51e1c2-0d02-4530-9975-020f71bad836
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Oh, good bye.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1474
+    y: 195
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4344020933266649262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 3bbc64a1-744a-48fd-a1f5-f853fc1118c7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hello stranger!
+  children:
+  - 214c1690-1553-489f-9f94-41494c067d3c
+  - c20ba30d-6af6-4721-a9dc-a67bb5e04fc3
+  - 59dcbe7e-987a-45ef-ba7a-632c9c094f70
+  rect:
+    serializedVersion: 2
+    x: 21
+    y: 73
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2694952886849873314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 59dcbe7e-987a-45ef-ba7a-632c9c094f70
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You did it! You actually slew the Swamp Donkey!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 265
+    y: 321
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Swamp Donkey Quest
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Swamp Donkey Quest
+        negate: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: Quest Giver
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4344020933266649262}
+  - {fileID: 2454771039379339619}
+  - {fileID: 6781184594855596688}
+  - {fileID: -2694952886849873314}
+  - {fileID: -8671682678427220035}
+  - {fileID: 3586244064681602071}
+  - {fileID: 1797804629289806640}
+  - {fileID: -6977335559712983403}
+  - {fileID: 330925799789789916}
+  - {fileID: 7421037561390553411}
+  - {fileID: 2348909086935395567}
+  - {fileID: 6272636754610183239}
+  - {fileID: -5988230843802586893}
+  - {fileID: 2756902953293633289}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &330925799789789916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 57331595-c013-4edd-9ba0-71706365abcd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: The terrible Swamp Donkey
+  children:
+  - 16ca2c48-8e6a-40ac-85df-ca252d04acde
+  - 92e24b44-f1a1-4e24-92bd-4c16fec03fd0
+  rect:
+    serializedVersion: 2
+    x: 980
+    y: -16
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1797804629289806640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8d6e2f30-6a1c-4e67-a51b-4ccc25106c52
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No drama here!
+  children:
+  - 1e51e1c2-0d02-4530-9975-020f71bad836
+  rect:
+    serializedVersion: 2
+    x: 510
+    y: 196
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2348909086935395567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 16ca2c48-8e6a-40ac-85df-ca252d04acde
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes.
+  children:
+  - 2502c565-6047-4d7c-970d-37529368f740
+  rect:
+    serializedVersion: 2
+    x: 1231
+    y: -2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &2454771039379339619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 214c1690-1553-489f-9f94-41494c067d3c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Oh what terrible times we live in.
+  children:
+  - afab9740-8729-40d8-8672-7c84148b254e
+  - dedf90bd-ada8-4ed9-9a48-40df8ade0f93
+  - 8d6e2f30-6a1c-4e67-a51b-4ccc25106c52
+  rect:
+    serializedVersion: 2
+    x: 254
+    y: 26
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Swamp Donkey Quest
+        negate: 1
+--- !u!114 &2756902953293633289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 2502c565-6047-4d7c-970d-37529368f740
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Amazing!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1481
+    y: -2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3586244064681602071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: dedf90bd-ada8-4ed9-9a48-40df8ade0f93
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Am I getting a quest then or what?
+  children:
+  - 983e7d15-c9e2-41f3-9419-e870f1b46424
+  rect:
+    serializedVersion: 2
+    x: 508
+    y: 96
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6272636754610183239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 92e24b44-f1a1-4e24-92bd-4c16fec03fd0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No.
+  children:
+  - 1e51e1c2-0d02-4530-9975-020f71bad836
+  rect:
+    serializedVersion: 2
+    x: 1230
+    y: 98
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6781184594855596688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: c20ba30d-6af6-4721-a9dc-a67bb5e04fc3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Slain the Swamp Donkey yet?
+  children:
+  - f5edddbe-72c2-455c-a584-9b4b4201145a
+  rect:
+    serializedVersion: 2
+    x: 265
+    y: 183
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Swamp Donkey Quest
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Swamp Donkey Quest
+        negate: 1
+--- !u!114 &7421037561390553411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 983e7d15-c9e2-41f3-9419-e870f1b46424
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes!
+  children:
+  - 57331595-c013-4edd-9ba0-71706365abcd
+  rect:
+    serializedVersion: 2
+    x: 748
+    y: 102
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

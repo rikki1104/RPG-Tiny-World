@@ -1,0 +1,756 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7471249236830618381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 6225083c-1c84-44a4-a5af-1abc7d0b5713
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hi, I'm Jill. I am here to help newcomers in the town.
+  children:
+  - bf58e481-b048-4d0b-9b69-ffe52f934086
+  - cf422a4a-8a3a-45f6-b5a5-cf15bea68bb4
+  rect:
+    serializedVersion: 2
+    x: -15
+    y: 83
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6783833053596963730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 528e2a5a-239d-4d9c-be78-0153e275daf3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Sure how?
+  children:
+  - 2547e89f-40cf-4dbb-a43d-317cc425f5b9
+  rect:
+    serializedVersion: 2
+    x: 571
+    y: 387
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6057572093501198991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ad7534a0-ca6e-4fc3-84ff-7230eca0f41a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Fantastic, Hurry back!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1968
+    y: 421
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &-5985896615751646143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 408e686b-a056-4e61-9f1c-6b8d2c26099b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You can complete quests. Fight enemies for experience and gold. The town
+    is still waiting for that one resident to reach level 10, nobody has been able
+    to do it yet. They all get stuck at the level 9. Defeating the Great end boss
+    is rather challenging. So make sure you gear up and level up. Maybe you can be
+    the town hero!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1311
+    y: 258
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5552223043128860917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 665cc7fe-518f-41f5-945e-e37205265346
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: There are multiple ways to do this. You can complete quests or buy them from
+    the shops. You can every get weapons and items drop from enemies when you defeat
+    them.
+  children:
+  - 6b2dc7aa-248e-4d97-ab2f-931ec76a5a06
+  rect:
+    serializedVersion: 2
+    x: 1312
+    y: 164
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5100447883777350695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 279e7546-ff93-4c04-ac6f-ce23b3325597
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ok, Bye
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1903
+    y: 724
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4568753966393882904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 9c1b1664-11aa-47c0-9b0c-a258877bccdc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ok, Goodbye. Please feel free to return if you need any help.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 900
+    y: 167
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3999411265958177850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 4df45780-576d-4f7f-9dab-ec109c67eae1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: How do I get weapons?
+  children:
+  - 665cc7fe-518f-41f5-945e-e37205265346
+  rect:
+    serializedVersion: 2
+    x: 1108
+    y: 163
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3741973030869057817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: b7cfd6bc-897f-4720-8e81-886f0a72483c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Why dont you go see Frankie the Baker. He sells weapons on the down low.
+    He even helps some newcoming out by giving them their first weapon free!
+  children:
+  - 7e14cea9-5234-4910-aa35-9538f4787af1
+  rect:
+    serializedVersion: 2
+    x: 1753
+    y: 124
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3175708717719336976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 4281a29b-2396-4f21-a4de-ae9a0bb91a87
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Simple, just left click anywhere in the world with your mouse. This will
+    move you to that point! You can also rotate and zoom the camera using the mouses
+    scroll wheel to zoom and holding the middle mouse butting in whilst moving the
+    mouse to rotate.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1303
+    y: -22
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3133478820222468187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 1ff20d6f-3638-40ee-99aa-2767caf411f6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Can you help me please jill I am confused.
+  children:
+  - a96190be-9111-45ab-afef-420201b8cbdd
+  rect:
+    serializedVersion: 2
+    x: 682
+    y: 22
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2545785462444103836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ae898323-b79f-4be0-8509-a298d9ca9970
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No thanks.
+  children:
+  - 279e7546-ff93-4c04-ac6f-ce23b3325597
+  rect:
+    serializedVersion: 2
+    x: 1598
+    y: 623
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1402839148234496359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 6d7814b9-29f4-4dca-9ba4-c11e6aaedc8f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Not right now.
+  children:
+  - 1ff20d6f-3638-40ee-99aa-2767caf411f6
+  - add4243d-087e-40c9-9431-479dc5607693
+  rect:
+    serializedVersion: 2
+    x: 439
+    y: 217
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-801742954267294749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: cbb03ea7-cbb2-49d2-aa5a-d62d038e188d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What do I do here?
+  children:
+  - 408e686b-a056-4e61-9f1c-6b8d2c26099b
+  rect:
+    serializedVersion: 2
+    x: 1111
+    y: 267
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-701639903202331153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: cf422a4a-8a3a-45f6-b5a5-cf15bea68bb4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You have the recipe! Here is your reward.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 383
+    y: 22
+    width: 200
+    height: 100
+  onEnterAction: HasCompleted
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: Jill The Helper
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7471249236830618381}
+  - {fileID: -3133478820222468187}
+  - {fileID: 7119205168539119825}
+  - {fileID: 3639287820189331659}
+  - {fileID: -4568753966393882904}
+  - {fileID: 6313027760107379827}
+  - {fileID: -3999411265958177850}
+  - {fileID: -801742954267294749}
+  - {fileID: 8866041767093822329}
+  - {fileID: 4737146742415714038}
+  - {fileID: -3175708717719336976}
+  - {fileID: 5330867799609402305}
+  - {fileID: -5552223043128860917}
+  - {fileID: -5985896615751646143}
+  - {fileID: 4696210744880638029}
+  - {fileID: 1986484842874125205}
+  - {fileID: -3741973030869057817}
+  - {fileID: 3602206175728692512}
+  - {fileID: 8569680036390427890}
+  - {fileID: 6658672815284865776}
+  - {fileID: -2545785462444103836}
+  - {fileID: -701639903202331153}
+  - {fileID: -6057572093501198991}
+  - {fileID: -5100447883777350695}
+  - {fileID: 2513873268497212066}
+  - {fileID: -6783833053596963730}
+  - {fileID: -1402839148234496359}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1986484842874125205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 6b2dc7aa-248e-4d97-ab2f-931ec76a5a06
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I have no weapons or money. How do i begin adventuring?
+  children:
+  - b7cfd6bc-897f-4720-8e81-886f0a72483c
+  rect:
+    serializedVersion: 2
+    x: 1522
+    y: 124
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2513873268497212066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: bf58e481-b048-4d0b-9b69-ffe52f934086
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Can you help me?
+  children:
+  - 528e2a5a-239d-4d9c-be78-0153e275daf3
+  - 6d7814b9-29f4-4dca-9ba4-c11e6aaedc8f
+  rect:
+    serializedVersion: 2
+    x: 242
+    y: 337
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3602206175728692512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 7e14cea9-5234-4910-aa35-9538f4787af1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Ok, Thanks!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2016
+    y: 116
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3639287820189331659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: a96190be-9111-45ab-afef-420201b8cbdd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Sure, What do you need help with?
+  children:
+  - f907130f-121c-4c81-8d51-cd5ae85afbf2
+  - 4df45780-576d-4f7f-9dab-ec109c67eae1
+  - cbb03ea7-cbb2-49d2-aa5a-d62d038e188d
+  - dd01542d-9cc9-4b29-9f99-da1c0c335c49
+  - 848e338b-64e3-4b23-bcd5-5c7a4798d944
+  rect:
+    serializedVersion: 2
+    x: 889
+    y: 11
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4696210744880638029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 40fca3ec-ddd8-4ecb-b9d2-498899234698
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: By completing quests or killing enemies. You can also sell your loot to the
+    shop.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1320
+    y: 378
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4737146742415714038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 848e338b-64e3-4b23-bcd5-5c7a4798d944
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: How do I fight?
+  children:
+  - ed4255b5-0565-4321-be9f-b2dc7463d573
+  rect:
+    serializedVersion: 2
+    x: 1107
+    y: 71
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5330867799609402305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ed4255b5-0565-4321-be9f-b2dc7463d573
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You find an enemy and click on them with the left mouse button.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1304
+    y: 72
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6313027760107379827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: f907130f-121c-4c81-8d51-cd5ae85afbf2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: How do I move?
+  children:
+  - 4281a29b-2396-4f21-a4de-ae9a0bb91a87
+  rect:
+    serializedVersion: 2
+    x: 1105
+    y: -24
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6658672815284865776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 7c5d17fc-c457-4b38-926f-c3e79b0e5310
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Ok ill do it!
+  children:
+  - ad7534a0-ca6e-4fc3-84ff-7230eca0f41a
+  rect:
+    serializedVersion: 2
+    x: 1627
+    y: 490
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7119205168539119825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: add4243d-087e-40c9-9431-479dc5607693
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I'm fine thanks goodbye!
+  children:
+  - 9c1b1664-11aa-47c0-9b0c-a258877bccdc
+  rect:
+    serializedVersion: 2
+    x: 690
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8569680036390427890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 2547e89f-40cf-4dbb-a43d-317cc425f5b9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: If you head over to the Tabletop world and collect the Best Bread Recipe.
+    You will get 1000 gold.
+  children:
+  - 7c5d17fc-c457-4b38-926f-c3e79b0e5310
+  - ae898323-b79f-4be0-8509-a298d9ca9970
+  rect:
+    serializedVersion: 2
+    x: 896
+    y: 550
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8866041767093822329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: dd01542d-9cc9-4b29-9f99-da1c0c335c49
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: How do I make money?
+  children:
+  - 40fca3ec-ddd8-4ecb-b9d2-498899234698
+  rect:
+    serializedVersion: 2
+    x: 1104
+    y: 372
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
